@@ -8,7 +8,7 @@
 import UIKit
 
 struct LabelFactory {
-    static func buildLabel(text: String,
+    static func buildLabel(text: String?,
                            font: UIFont,
                            backgroundColor: UIColor = .clear,
                            textColor: UIColor = ThemeColor.text,
